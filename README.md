@@ -1,7 +1,7 @@
 # Job Board API
 
 A RESTful Job Board API built with FastAPI.  
-Implements JWT authentication and role-based access control (Admin/User).  
+Implements JWT authentication and role-based access control (Admin/User).
 
 ## Tech Stack
 
@@ -33,6 +33,10 @@ pip install -r requirements.txt
 3. Run the server
 
 uvicorn app.main:app --reload
+
+## AI-Assisted Development
+
+Used AI tools to help structure the project and stay on track while developing it. Used the process as an opportunity to learn and understand the concepts involved.
 
 ## API Docs
 
