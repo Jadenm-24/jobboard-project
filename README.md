@@ -19,7 +19,14 @@ Implements JWT authentication and role-based access control (Admin/User).
 - Admin-only job creation, update, and deletion
 - Public job listings
 
-## Installation
+## Run with Docker
+
+Make sure Docker Desktop is installed and running. From the project folder, the folder containing the Dockerfile, run:
+
+docker build -t job-board-api .
+docker run --rm -p 8000:8000 job-board-api
+
+## Run with Python
 
 1. Create virtual environment
 
